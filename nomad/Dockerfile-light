@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER "Tim Fall <tim@hashicorp.com>"
 
-ENV NOMAD_VERSION=0.3.2
+ENV NOMAD_VERSION=0.4
 ENV NOMAD_SHA256SUM=710ff3515bc449bc2a06652464f4af55f1b76f63c77a9048bc30d6fde284b441
 
 RUN apk add --update git bash wget
